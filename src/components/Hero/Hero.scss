@@ -110,7 +110,7 @@
     font-size: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #8c8c88;
+    color: var(--ash);
     display: flex;
     align-items: center;
     gap: 9px;
@@ -157,12 +157,12 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .ebJewelleryContainer {
-        .heroMedia {
-            background: var(--off-black) var(--hero-fallback-img, none) center/cover;
-            video {
-                display: none;
-            }
-        }
+  .ebJewelleryContainer {
+    .heroMedia {
+      background: var(--off-black) var(--hero-fallback-img, none) center/cover;
+      video {
+        display: none;
+      }
     }
+  }
 }
