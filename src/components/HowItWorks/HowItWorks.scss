@@ -1,0 +1,49 @@
+.ebJewelleryContainer {
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #d8d7d1;
+    border: 1px solid #d8d7d1;
+
+    .step {
+      background: #fafaf8;
+      padding: 42px 34px;
+
+      .num {
+        font-size: 12px;
+        color: #8c8c88;
+        letter-spacing: 0.1em;
+        font-family: var(--mono);
+      }
+      
+      h3 {
+        font-size: 22px;
+        text-transform: uppercase;
+        margin: 18px 0 12px;
+      }
+
+      p {
+        color: #59595a;
+        font-size: 15px;
+        line-height: 1.65;
+      }
+
+      &:nth-child(2) {
+        transition: 0.1s;
+      }
+
+      &:nth-child(3) {
+        transition-delay: 0.2s;
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .ebJewelleryContainer {
+    .steps {
+      grid-template-columns: 1fr;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.ebJewelleryContainer {
+  #about {
+    padding: 0;
+  }
+
+  .aboutRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 640px;
+  }
+
+  .aboutCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 16px;
+    padding: 90px 60px 90px 32px;
+
+    h2 {
+      font-family: var(--display);
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: clamp(26px, 3.4vw, 40px);
+      line-height: 1.08;
+      margin-top: 4px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+      max-width: 400px;
+    }
+  }
+
+  .aboutRowDark {
+    background: var(--black);
+    color: var(--white);
+
+    p {
+      color: var(--ash);
+    }
+
+    .eyebrow {
+      color: var(--ash);
+
+      &::before {
+        background: var(--ash);
+      }
+    }
+
+    .aboutCopy {
+      justify-content: flex-end;
+      padding-bottom: 36px;
+      padding-left: max(32px, calc((100vw - 1240px) / 2 + 32px));
+    }
+  }
+
+  .aboutRowLight {
+    background: var(--white);
+    color: var(--black);
+
+    p {
+      color: var(--ash);
+    }
+
+    .aboutCopy {
+      justify-content: flex-start;
+      padding: 36px 32px 0 60px;
+    }
+  }
+
+  .aboutMedia {
+    position: relative;
+    overflow: hidden;
+    min-height: 380px;
+
+    img,
+    video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(1) contrast(1.05) brightness(0.92);
+    }
+  }
+
+  .linkUnderline {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: inherit;
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .ebJewelleryContainer {
+    .aboutRow .aboutCopy {
+      padding: 56px 20px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .ebJewelleryContainer {
+    .aboutRow {
+      grid-template-columns: 1fr;
+      min-height: 0;
+    }
+  }
+}

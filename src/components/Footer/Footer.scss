@@ -1,0 +1,73 @@
+.ebJewelleryContainer {
+  footer {
+    background: var(--black);
+    color: var(--ash);
+    padding: 64px 0 30px;
+    border-top: 1px solid var(--line-on-black);
+
+    a,
+    p {
+      display: block;
+      font-size: 13.5px;
+      margin-bottom: 10px;
+      color: var(--ash);
+    }
+
+    a:hover {
+      color: var(--white);
+    }
+  }
+
+  .footerTop {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 50px;
+
+    h4 {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+  }
+
+  .footerLogo {
+    font-family: var(--display);
+    font-size: 22px;
+    color: var(--white);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    .mark {
+      width: 10px;
+      height: 10px;
+      background: var(--white);
+      display: inline-block;
+    }
+  }
+
+  .footerBottom {
+    border-top: 1px solid var(--line-on-black);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--ash);
+  }
+}
+
+@media (max-width: 760px) {
+  .ebJewelleryContainer .footerTop {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 36px;
+  }
+}

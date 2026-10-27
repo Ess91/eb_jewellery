@@ -1,0 +1,107 @@
+.ebJewelleryContainer {
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ash-dark);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &::before {
+      content: "";
+      width: 18px;
+      height: 1px;
+      background: var(--ash-dark);
+    }
+  }
+
+  .btn {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border: 1px solid var(--black);
+    background: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition:
+      background 0.25s ease,
+      color 0.25s ease,
+      transform 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+      background: var(--white);
+      color: var(--black);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--black);
+      outline-offset: 3px;
+    }
+    &.ghost {
+      background: transparent;
+      color: var(--black);
+
+      &:hover {
+        background: var(--black);
+        color: var(--white);
+      }
+    }
+
+    &.onBlack {
+      border-color: var(--white);
+      background: var(--white);
+      color: var(--black);
+
+      &:hover {
+        background: transparent;
+        color: var(--white);
+      }
+    }
+    &.ghostOnBlack {
+      border-color: var(--line-on-black);
+      background: transparent;
+      color: var(--white);
+
+      &:hover {
+        border-color: var(--white);
+        background: var(--white);
+        color: var(--black);
+      }
+    }
+  }
+
+  .sectionHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+    margin-bottom: 56px;
+
+    h2 {
+      font-size: clamp(30px, 4.4vw, 54px);
+      line-height: 1;
+      text-transform: uppercase;
+      margin-top: 14px;
+    }
+
+    p {
+      max-width: 340px;
+      color: var(--ash-dark);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    @media (max-width: 760px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}

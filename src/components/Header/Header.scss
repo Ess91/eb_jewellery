@@ -1,0 +1,110 @@
+.ebJewelleryContainer {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(11, 11, 12, 0.92);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line-on-black);
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+    color: var(--white);
+  }
+
+  .burger {
+    display: none;
+    width: 26px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .burger span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--white);
+    transition: all 0.25s ease;
+  }
+  .burger span:nth-child(1) {
+    top: 0;
+  }
+  .burger span:nth-child(2) {
+    top: 8px;
+  }
+  .burger span:nth-child(3) {
+    top: 16px;
+  }
+
+  .navLinks {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+
+    a {
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: #8c8c88;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--white);
+      }
+    }
+  }
+
+  .logo {
+    font-family: var(--display);
+    font-size: 19px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: var(--white);
+  }
+
+  .navCta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    a {
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--white);
+      transition: color 0.2s ease;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .ebJewelleryContainer {
+    .nav {
+      padding: 16px 20px;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .ebJewelleryContainer {
+    .navLinks {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+    }
+  }
+}

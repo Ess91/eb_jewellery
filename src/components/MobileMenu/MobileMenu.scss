@@ -1,0 +1,27 @@
+.ebJewelleryContainer {
+    .mobileMenu {
+        position: fixed;
+        inset: 0;
+        background: #0B0B0C;
+        z-index: 99;
+        display: none;
+        flex-direction: column;
+        padding: 100px 32px 40px;
+        gap: 26px;
+
+        &.open {
+            display: flex;
+        }
+
+        a {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #FAFAF8;
+        }
+
+        .btn {
+            margin-top: 20px;
+            width: fit-content;
+        }
+    }
+}
