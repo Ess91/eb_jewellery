@@ -44,6 +44,12 @@ body {
     font-family: var(--display);
     font-weight: 400;
   }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
