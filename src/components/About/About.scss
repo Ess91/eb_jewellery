@@ -50,9 +50,7 @@
     }
 
     .aboutCopy {
-      justify-content: flex-end;
-      padding-bottom: 36px;
-      padding-left: max(32px, calc((100vw - 1240px) / 2 + 32px));
+      padding: 36px 32px 36px 60px;
     }
   }
 
@@ -65,8 +63,7 @@
     }
 
     .aboutCopy {
-      justify-content: flex-start;
-      padding: 36px 32px 0 60px;
+      padding: 36px 32px 36px 60px;
     }
   }
 
