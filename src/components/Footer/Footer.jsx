@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footerBottom">
-          <span>© 2026 EB Jewellery. All rights reserved. Designed and Built By<a href="www.estherboateng.co.uk" target="_blank">Esther Boateng</a></span>
+          <span>© {new Date().getFullYear()} EB Jewellery. All rights reserved. Designed & Built by <a href="https://www.estherboateng.co.uk" target="_blank">Esther Boateng</a></span>
           <span>Private studio · Mayfair, London · By appointment only</span>
         </div>
         <div
