@@ -59,10 +59,10 @@ export default function Booking({ submitted, refNumber, onSubmit }) {
               </div>
               <div className="field">
                 <label htmlFor="notes">Anything else</label>
-                <textarea id="notes" rows={3} placeholder="Budget, stone, reference photo — whatever helps us prep for the appointment" />
+                <textarea id="notes" rows={3} placeholder="Lorem Mollitia facilis quisquam vel blanditiis" />
               </div>
               <div className="formSubmit">
-                <small>Submitting sends a private enquiry — nothing is booked or charged until we confirm your slot.</small>
+                <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia facilis quisquam vel blanditiis.</small>
                 <button type="submit" className="btn on-black">Request appointment</button>
               </div>
             </form>

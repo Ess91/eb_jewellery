@@ -10,8 +10,7 @@ export default function Footer() {
               EB Jewellery
             </div>
             <p style={{ maxWidth: "260px" }}>
-              Fine jewellery at wholesale prices. Private appointments only — no
-              shopfront, no walk-ins.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti temporibus consequuntur.
             </p>
           </div>
           <div>
