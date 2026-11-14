@@ -10,7 +10,7 @@ export default function Booking({ submitted, refNumber, onSubmit }) {
             <br />
             you're after.
           </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem ad! Blanditiis, commodi, deleniti ullam quae possimus asperiores.</p>
+          <p>Send a few details and we'll be in touch within fours to arrange a time. Everything you share stays between us.</p>
           <div className="bookingMeta">
             <div><b>Response time</b>Within 4 hours, 7 days a week</div>
             <div><b>Where</b>Private studio, Mayfair or your location by arrangement</div>
@@ -59,10 +59,10 @@ export default function Booking({ submitted, refNumber, onSubmit }) {
               </div>
               <div className="field">
                 <label htmlFor="notes">Anything else</label>
-                <textarea id="notes" rows={3} placeholder="Lorem Mollitia facilis quisquam vel blanditiis" />
+                <textarea id="notes" rows={3} placeholder="e.g. a reference number, your budget, or the occasion" />
               </div>
               <div className="formSubmit">
-                <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia facilis quisquam vel blanditiis.</small>
+                <small>We use your details only to arrange your appointment. We never share them or add you to a mailing list.</small>
                 <button type="submit" className="btn on-black">Request appointment</button>
               </div>
             </form>

@@ -10,7 +10,7 @@ export default function Footer() {
               EB Jewellery
             </div>
             <p style={{ maxWidth: "260px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti temporibus consequuntur.
+              Private sourcing of fine watches and jewellery, by appointment only.
             </p>
           </div>
           <div>
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footerBottom">
-          <span>© {new Date().getFullYear()} EB Jewellery. All rights reserved. Designed & Built by <a href="https://www.estherboateng.co.uk" target="_blank">Esther Boateng</a></span>
+          <span>© {new Date().getFullYear()} EB Jewellery. All rights reserved.</span>
           <span>Private studio · Mayfair, London · By appointment only</span>
         </div>
         <div
@@ -51,10 +51,7 @@ export default function Footer() {
           style={{ borderTop: "none", paddingTop: "10px" }}
         >
           <span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-            asperiores amet non quaerat sit repudiandae vitae unde explicabo
-            ipsam! Illum sint in impedit dignissimos. Illo quidem consequuntur
-            nemo iure cum!
+           Concept  project designed and built by <a href="https://www.estherboateng.co.uk" target="_blank" style={{ fontSize: "11px" }}>Esther Boateng</a>
           </span>
         </div>
       </div>

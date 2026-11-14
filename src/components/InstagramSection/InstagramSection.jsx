@@ -10,7 +10,7 @@ export default function InstagramSection() {
             <span className="eyebrow">Tag us, we repost</span>
             <h2 style={{ color: "var(--white)" }}>#EBJEWELLERY</h2>
           </div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nam quasi aperiam voluptate laborum ipsum.</p>
+          <p>Wearing something from us? Tag @ebjewellery or use #ebjewellery. We'll only repost with your permission, and never with your name unless you want to.</p>
         </div>
         <div className="instaGrid">
           {INSTAGRAM_ITEMS.map((src, i) => (

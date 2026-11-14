@@ -27,15 +27,13 @@ export default function Wholesale({ wholesaleWrapRef, wholesaleImgRef }) {
             You're not paying for a shop window.
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quasi
-            repellendus modi corrupti sint nam sapiente alias similique velit!
-            Rem nemo ad officiis. Esse unde eligendi quas nostrum ad nulla.
+            Retail prices carry rent, staff and display costs. We have none of those, so you pay closer to trade price for the same piece.
           </p>
           <ul>
-            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </li>
-            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Trade pricing on watches, gold and diamonds </li>
+            <li>Every piece independently valued and fully insured</li>
+            <li>Part-exchange welcome on watches and gold</li>
+            <li>Discreet delivery across the UK and internationally</li>
           </ul>
         </div>
       </div>

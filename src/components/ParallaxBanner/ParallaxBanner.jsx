@@ -8,9 +8,9 @@ export default function ParallaxBanner({ parallaxBannerRef, parallaxImgRef }) {
       <div className="pbContent reveal">
         <span>The whole point</span>
         <h2>
-          Lorem ipsum dolor sit amet.
+          Luxury,
           <br />
-          Lorem ipsum dolor.
+         without the theatre.
         </h2>
       </div>
     </section>

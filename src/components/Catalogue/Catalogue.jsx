@@ -9,9 +9,9 @@ export default function Catalogue() {
         <div className="sectionHead reveal">
           <div>
             <span className="eyebrow">The catalogue</span>
-            <h2 style={{ color: "#FAFAF8" }}>Lorem ipsum dolor sit. amet consectetur.</h2>
+            <h2 style={{ color: "#FAFAF8" }}>The catalogue isn't public.</h2>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium illo enim perspiciatis neque maxime cumque voluptas totam natus. </p>
+          <p>What you see here is a small sample. The full catalogue changes every week and goes to clients who request this.</p>
         </div>
         <div className="catGrid">
           {CATALOGUE_ITEMS.map((item) => (
@@ -26,7 +26,7 @@ export default function Catalogue() {
           ))}
         </div>
         <div className="catalogueCta">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim, tempore optio asperiores ab, blanditiis cumque repellendus.</p>
+          <p>Looking for a specific piece reference? Request the catalogue and tell us what you have in mind.</p>
           <a href="#booking" className="btn onBlack">Request the catalogue</a>
         </div>
       </div>

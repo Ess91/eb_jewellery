@@ -12,14 +12,13 @@ export default function About({ aboutVideoRef }) {
         <div className="aboutCopy reveal">
           <span className="eyebrow">How it's finished</span>
           <h2>
-            Lorem ipsum.
+            Every piece checked.
             <br />
-            Ipsum dolor.
+            Every piece valued.
           </h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum numquam aliquam, odit tenetur possimus officia illum voluptatibus quo iste perferendis itaque est vero non eos? Unde aperiam doloremque minima qui.
+            Before anything reaches you, it's inspected, cleaned and independently valued. You see the paperwork before you decide, so you know exactly what you're buying.
           </p>
-          <p>Lorem ipsum dolor sit. Amet consectetur adipisicing elit.</p>
           <a href="#booking" className="linkUnderline">Book a viewing</a>
         </div>
       </div>
@@ -27,15 +26,15 @@ export default function About({ aboutVideoRef }) {
         <div className="aboutCopy reveal">
           <span className="eyebrow">Our story</span>
           <h2>
-            Lorem ipsum.
+            Started in the trade.
             <br />
-            Lorem ipsum dolor.
+            Built for the buyer.
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae natus perspiciatis delectus. Ullam, delectus dicta. Harum corrupti minus quasi ad unde, quibusdam adipisci minima dolores eligendi porro doloremque optio pariatur.
+            We started in the trade, sourcing and selling watches, gold and diamonds to jewellers and collectors. Now we bring that same access to you, without the retail markup.  
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat blanditiis ipsum dolores.
+            Our founder has over 20 years of experience in the industry, and our team is made up of experts who are passionate about what they do.
           </p>
           <a href="#catalogue" className="linkUnderline">Request the catalogue</a>
         </div>

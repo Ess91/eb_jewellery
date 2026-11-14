@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+::selection {
+  background: #C4453b;
+  color: #000;
+}
+
 .ebJewelleryContainer * {
   margin: 0;
   padding: 0;

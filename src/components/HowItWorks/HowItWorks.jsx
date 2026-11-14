@@ -7,36 +7,32 @@ export default function HowItWorks() {
         <div className="sectionHead reveal">
           <div>
             <span className="eyebrow">How it works</span>
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h2>Three steps, all in private.</h2>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           No browsing, no sales floor. You tell us what you want, and we find it.
           </p>
         </div>
         <div className="steps">
           <div className="step reveal">
             <span className="num">01/Enquire</span>
-            <h3>Lorem ipsum dolor sit amet.</h3>
+            <h3>Tell us what you're after.</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Send the piece, your budget and when you need it, by Whatsapp or the form below
             </p>
           </div>
           <div className="step reveal">
             <span className="num">02/Book</span>
-            <h3>Lorem ipsum dolor sit amet.</h3>
+            <h3>We source and shortlist.</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        We search our trade network and come back with options, photos and prices.
             </p>
           </div>
           <div className="step reveal">
              <span className="num">03/View & Collect</span>
-          <h3>Lorem ipsum dolor sit amet.</h3>
+          <h3>View it, then decide.</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           See it in person at our private office or somewhere that suits you. No pressure and no obligation to buy
           </p>
           </div>
         </div>
